@@ -1,2 +1,2 @@
 # Engeto-Project-3
-Elections scraper
+Polls district breakdown
