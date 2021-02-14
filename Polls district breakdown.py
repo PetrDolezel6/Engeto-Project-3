@@ -94,7 +94,7 @@ rightUrl = False
 print("Using 'X', in 'Vyber obce' pick up a selection of municipalities to process from this address {}".format(
     "https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ"))
 while rightUrl == False:
-    address = input("Copy the page refernece here:")
+    address = input("Copy the page reference here:")
     rightUrl = checkurl(address)
     csvfile = input("Please enter the csv file name")
     print("Processing ...")
